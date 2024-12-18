@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Simple Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark"
+        style="background: radial-gradient(circle, pink, powderblue); opacity: 0.9;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">My Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-image text-center">
+        <h1>Welcome to My Website</h1>
+    </header>
+
+
+    <main class="container my-5">
+
+        <section class="text-center">
+            <h2>Who am I?</h2>
+            <p>My name is Iris, I was born and raised in Denver,CO.</p>
+        </section>
+
+
+        <section class="gif-section my-5">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdata.textstudio.com%2Foutput%2Fsample%2Fanimated%2F7%2F5%2F4%2F6%2Fwelcome-1-16457.gif&f=1&nofb=1&ipt=a3887c3593a703475bc8aed9cdf916684790dc2aee46d8d1596161383a02b75b&ipo=images"
+                alt="Fun GIF" class="rounded shadow">
+        </section>
+
+
+        <section class="my-5">
+            <h3>More about me</h3>
+            <table class="table table-bordered shadow-sm">
+                <thead class="table-light">
+                    <tr>
+                        <th>Interests</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Currently I am attending a software development boot camp brovided by Per Scholars.</td>
+                    </tr>
+                    <tr>
+                        <td>Gaming</td>
+                        <td>I love gaming, it allows you to escape into a different reality.</td>
+                    </tr>
+                    <tr>
+                        <td>Traveling</td>
+                        <td>I have traveled to El Salvador, Puerto Rico, and I have road tripped to California, Florida,
+                            Tennesse and visited the cities we drove through. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="my-5">
+            <h3>Get in Touch</h3>
+            <form>
+
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <button type="submit" class="btn btn-gradient px-4 py-2">Submit</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 My Simple Website. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
